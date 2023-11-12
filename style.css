@@ -27,6 +27,7 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    outline : none;
   }
   
   .button:hover {
@@ -57,3 +58,6 @@
       width: 90%;
     }
   }
+.button:active {
+  background-color: #ddd;
+}
